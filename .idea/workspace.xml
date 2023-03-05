@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0fe366f-bd27-46e8-afb5-facaa8982d76" name="Changes" comment="lesson1HW">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1HW/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson1HW/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson1HW/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson1HW/Main.class" afterDir="false" />
-    </list>
+    <list default="true" id="e0fe366f-bd27-46e8-afb5-facaa8982d76" name="Changes" comment="lesson1HW task 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +16,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="lesson1HW" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -53,6 +52,10 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectId" id="2MVvNCDmuLTUruRa4nyPRLz7DJv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -72,7 +75,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.lesson1HW.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson1.Main" />
       <module name="java-practice030323" />
