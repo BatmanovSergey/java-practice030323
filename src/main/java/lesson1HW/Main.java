@@ -2,13 +2,13 @@ package lesson1HW;
 
 import java.time.LocalDateTime;
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
 //        searchMaxAndMin(); // задача 1
-//        getNameAndPrintHiFromTime(); // задача 2
-
-
+        getvalue3();  // задача 2
+//        getNameAndPrintHiFromTime(); // задача 3
     }
 
     //1. Задать одномерный массив и найти в нем минимальный и максимальный элементы
@@ -27,6 +27,32 @@ public class Main {
         System.out.printf("Максимальное значение = %d", max);
         System.out.println();
         System.out.printf("Минимальное значение = %d", min);
+    }
+
+    //2. Дан массив nums = [3,2,2,3] и число val = 3.
+// Если в массиве есть числа, равные заданному, нужно перенести эти элементы в конец массива.
+// Таким образом, первые несколько (или все) элементов массива должны быть отличны от заданного,
+// а остальные - равны ему.
+    private static void getvalue3() {
+        int[] numbs = {3, 2, 1, 0, 0, 3, 3, 2, 2, 1};
+        int val = 3;
+        int start = 0;
+        int end = numbs.length - 1;
+        while (start != end) {
+            if (numbs[start] == val && numbs[end] == val) {
+                end--;
+            } else if (numbs[start] == val && numbs[end] != val) {
+                int temp = numbs[end];
+                numbs[end] = numbs[start];
+                numbs[start] = temp;
+                start++;
+            } else if (numbs[start] != val && numbs[end] == val) {
+                start++;
+            } else {
+                start++;
+            }
+        }
+        System.out.println(Arrays.toString(numbs));
     }
 
     //3. В консоли запросить имя пользователя. В зависимости от текущего времени, вывести приветствие вида:
@@ -58,5 +84,4 @@ public class Main {
         in.close();
         return nameUser;
     }
-
 }
