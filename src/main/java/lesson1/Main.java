@@ -1,14 +1,11 @@
 package lesson1;
 
-<<<<<<< HEAD
 //Написать программу, которая запросит пользователя ввести <Имя> в консоли
 //Получит введенную строку и выведет в консоль сообщение “Привет, <Имя>!”
 
 //Дан массив двоичных чисел, например [1,1,0,1,1,1], 
 //вывести максимальное количество подряд идущих 1.
 
-=======
->>>>>>> 820d06d (Initial commit)
 import java.time.LocalDateTime;
 import java.util.Scanner;
 import java.util.Date;
@@ -22,12 +19,10 @@ public class Main {
 //        getNameAndPrintHiFromTime();
 
     }
-<<<<<<< HEAD
 
-=======
     //Дан массив двоичных чисел, например [1,1,0,1,1,1],
     //вывести максимальное количество подряд идущих 1.
->>>>>>> 820d06d (Initial commit)
+
     private static void printarray() {
         int[] arr = {1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1};
         int count = 0;
@@ -47,12 +42,10 @@ public class Main {
         }*/
         System.out.println(maxx);
     }
-<<<<<<< HEAD
 
-=======
     //Написать программу, которая запросит пользователя ввести <Имя> в консоли
     //Получит введенную строку и выведет в консоль сообщение “Привет, <Имя>!”
->>>>>>> 820d06d (Initial commit)
+
     private static void inputNameAndSayHi() {
         Scanner in = new Scanner(System.in);
         System.out.println("name: ");
