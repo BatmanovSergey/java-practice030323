@@ -41,13 +41,14 @@ public class Task02 {
     }
 
     private static void writeStringIntoFile(String str) {
-        try (FileWriter fw = new FileWriter("file.txt")) {
+        try (FileWriter fw = new FileWriter("src/main/java/lesson3HW/file.txt", true)) {
             fw.write(str);
             fw.append('\n');
             fw.flush();
+            logger.info("Файл записан");
         } catch (IOException ex) {
             logger.warning(ex.getMessage());
-            System.out.println(ex.getMessage());
+            System.exit(1);
         }
     }
 }

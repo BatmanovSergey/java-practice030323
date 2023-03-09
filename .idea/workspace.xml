@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0fe366f-bd27-46e8-afb5-facaa8982d76" name="Changes" comment="add gitignore2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/DirectoryIsNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2HW/Task01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2HW/Task02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2HW/Task03.java" afterDir="false" />
+    <list default="true" id="e0fe366f-bd27-46e8-afb5-facaa8982d76" name="Changes" comment="add HW Tasks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2HW/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2HW/name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2HW/name.family" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2HW/Task02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2HW/Task02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2HW/Task03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2HW/Task03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678053770719</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add HW Tasks">
+      <created>1678379220786</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678379220786</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +284,16 @@
     <MESSAGE value="lesson1HW task 2" />
     <MESSAGE value="add gitignore" />
     <MESSAGE value="add gitignore2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gitignore2" />
+    <MESSAGE value="add HW Tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW Tasks" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="str" />
+        <watch expression="str" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_practice030323$Main.ic" NAME="Main Coverage Results" MODIFIED="1677866326315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
