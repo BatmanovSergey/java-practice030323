@@ -15,22 +15,48 @@ public class Main {
 //        System.out.println(strResult); // идентично строке 16
 //        System.out.println(sb);
 
-//       Дано число N (>0) и символы c1 и c2.
+//    1. Дано число N (>0) и символы c1 и c2.
 //       Написать метод, который вернет строку длины N, которая состоит из чередующихся символов c1 и c2, начиная с c1.
 
         int n = 5;
         char a = 'A';
         char b = 'B';
 
-        String result = numToString(n, a, b);
+//        String result = numToString(n, a, b); // вариант решения 1
 //        System.out.println(result);
-//        System.out.println(stringBilderUse(n, a, b));
+//        System.out.println(stringBilderUse(n, a, b)); вариант решения 1
 
-//        Напишите метод, который сжимает строку.
+//     2. Напишите метод, который сжимает строку.
 //        Пример: вход aaaabbbcdd.
 
         String str1 = "aaaabbbcdd" ;
         System.out.println(pressString(str1));
+    }
+
+    private static String numToString(int n, char a, char b) {
+        String str = "" ;
+        for (int i = 0; i < n; i++) {
+            if (i % 2 == 0) {
+                str += a;
+            } else {
+                str += b;
+                ;
+            }
+        }
+        return str;
+    }
+
+    private static String stringBilderUse(int n, char a, char b) {
+
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < n; i++) {
+            if (i % 2 == 0) {
+                sb.append(a);
+            } else {
+                sb.append(b);
+            }
+        }
+        return sb.toString();
     }
 
     private static String pressString(String s) {
@@ -56,32 +82,5 @@ public class Main {
             sb.append(array[array.length - 1]);
         }
         return sb.toString();
-    }
-
-
-    private static String stringBilderUse(int n, char a, char b) {
-
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < n; i++) {
-            if (i % 2 == 0) {
-                sb.append(a);
-            } else {
-                sb.append(b);
-            }
-        }
-        return sb.toString();
-    }
-
-    private static String numToString(int n, char a, char b) {
-        String str = "" ;
-        for (int i = 0; i < n; i++) {
-            if (i % 2 == 0) {
-                str += a;
-            } else {
-                str += b;
-                ;
-            }
-        }
-        return str;
     }
 }

@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class Task03 {
     public static void main(String[] args) {
-        String[] fileNameArray = readFilesFromDirectory("src/main/java/lesson2HW/file.txt");
+        String[] fileNameArray = readFilesFromDirectory("src/main/java/lesson2HW");
         if (fileNameArray.length == 0) {
             System.out.println("Папка пустая");
             System.exit(0);
