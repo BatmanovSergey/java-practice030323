@@ -119,7 +119,7 @@ public class Methods {
             }
         }
         if (count == 0) {
-            System.out.println("Подхожящего ноутбука не найдено.%n");
+            System.out.println("Подходящего ноутбука не найдено.%n");
         }
     }
 

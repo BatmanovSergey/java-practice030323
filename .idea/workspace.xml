@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0fe366f-bd27-46e8-afb5-facaa8982d76" name="Changes" comment="add HW6" />
+    <list default="true" id="e0fe366f-bd27-46e8-afb5-facaa8982d76" name="Changes" comment="add Methods.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson6HW/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson6HW/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson6HW/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson6HW/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson6HW/Notebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson6HW/Notebook.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -272,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679693022217</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add Methods.java">
+      <created>1679693330887</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1679693330887</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,7 +349,8 @@
     <MESSAGE value="add jpeg" />
     <MESSAGE value="add solution" />
     <MESSAGE value="add HW6" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW6" />
+    <MESSAGE value="add Methods.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Methods.java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

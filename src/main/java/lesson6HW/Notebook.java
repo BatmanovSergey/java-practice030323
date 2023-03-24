@@ -30,8 +30,7 @@ public class Notebook {
                 ", Оперативная память = " + memory + " MB" +
                 ", Жёсткий диск = " + hardDisk + " GB" +
                 ", Цвет ='" + color + '\'' +
-                ", Диагональ = " + diagonal + "\"" +
-                '}';
+                ", Диагональ = " + diagonal + "\"";
     }
 
     public void printNoteBooks() {
