@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0fe366f-bd27-46e8-afb5-facaa8982d76" name="Changes" comment="add jpeg">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson5/MainAlesiagroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson5/Task1.java" afterDir="false" />
+    <list default="true" id="e0fe366f-bd27-46e8-afb5-facaa8982d76" name="Changes" comment="add solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/Task01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/Task02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6HW/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6HW/Notebook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-practice030323.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-practice030323.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +33,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lesson5HW" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,26 +85,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainAlesiagroup">
-    <configuration name="MainAlesiagroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson5.MainAlesiagroup" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6HW.Main" />
       <module name="java-practice030323" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Maingroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.Maingroup" />
-      <module name="java-practice030323" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="lesson6HW.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson5.Task1" />
+    <configuration name="Task01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson5HW.Task01" />
       <module name="java-practice030323" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson5.*" />
+          <option name="PATTERN" value="lesson5HW.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +125,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson4HW.Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4HW.Task02" />
+    <configuration name="Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.Task02" />
       <module name="java-practice030323" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4HW.*" />
+          <option name="PATTERN" value="lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson5HW.Task01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson5HW.Task01" />
+      <module name="java-practice030323" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson5HW.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson6.Task01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.Task01" />
+      <module name="java-practice030323" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainAlesiagroup" />
-        <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.lesson4HW.Task02" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.lesson5HW.Task01" />
+        <item itemvalue="Application.Task02" />
+        <item itemvalue="Application.lesson6.Task01" />
         <item itemvalue="Application.Task01" />
-        <item itemvalue="Application.Maingroup" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678659740720</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add jpeg">
+      <created>1679088204429</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679088204429</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add solution">
+      <created>1679411719930</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679411719930</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,9 +335,10 @@
     <MESSAGE value="add gitignore2" />
     <MESSAGE value="add HW Tasks" />
     <MESSAGE value="add HW Task03" />
-    <MESSAGE value="add jpeg" />
     <MESSAGE value="add lesson 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lesson 3" />
+    <MESSAGE value="add jpeg" />
+    <MESSAGE value="add solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="add solution" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
